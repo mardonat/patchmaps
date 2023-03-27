@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "patchstructure"
+authors = [
+    {name = "Marco Donat", email = "marco.donat@zalf.de"},
+]
+description = "Creates rectangular Patchstructure parallel to permanent traffic lines"
+readme = "README.md"
+requires-python = ">=3.7"
+keywords = ["one", "two"]
+license = {text = "BSD-3-Clause"}
+dependencies = [
+    "geopandas",
+    "numpy",
+    "pyproj",
+    "shapely", 
+]
+dynamic = ["version"]
+
