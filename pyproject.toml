@@ -16,10 +16,10 @@ requires-python = ">=3.7"
 keywords = ["one", "two"]
 license = {text = "MIT"}
 dependencies = [
-    "geopandas",
-    "numpy",
-    "pyproj",
-    "shapely", 
+    "geopandas >=0.12.2",
+    "numpy >=1.24.2",
+    "pyproj >= 3.0.1",
+    "shapely >= 1.7.1", 
 ]
 dynamic = ["version"]
 
