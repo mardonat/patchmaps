@@ -21,7 +21,7 @@ Import the modul:
 from patchmaps import patchmaps
 ```
 
-Import the data
+Import the data using Geopandas
 ```
 line = gpd.read_file('line.shp')
 line= line.to_crs('epsg:4326')
@@ -29,8 +29,11 @@ poly = gpd.read_file('poly.shp')
 poly= poly.to_crs('epsg:4326')
 ```
 
-##create patchmaps
+And then create patchmaps without a trameline:
+```
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
+```
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
