@@ -9,24 +9,8 @@ With this module, patch structures are generated parallel to the working directi
 You can install via pip:
 
 ```
-$ pip install git+https://github.com/mardonat/patchmaps.git --save grayscale
+$ pip install git+https://github.com/mardonat/patchmaps.git
 ```
-
-Or, you can install via [npm](http://npmjs.org):
-
-```
-$ npm install --save gray
-```
-Or, you can clone the source:
-
-```
-$ git clone https://github.com/johnotander/gray.git
-```
-
-## Installation
-
-pip install git+https://github.com/mardonat/patchmaps.git
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## Getting Started
