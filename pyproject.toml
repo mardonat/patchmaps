@@ -4,14 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "patchmaps"
+version = "0.0.1"
 authors = [
-    {name = "Marco Donat", email = "marco.donat@zalf.de"},
+    {name = "Marco Donat & Jonas Geistert", email = "marco.donat@zalf.de"},
 ]
 description = "Creates rectangular Patchstructure parallel to permanent traffic lines"
 readme = "README.md"
 requires-python = ">=3.7"
 keywords = ["one", "two"]
-license = {text = "BSD-3-Clause"}
+license = {text = "MIT"}
 dependencies = [
     "geopandas",
     "numpy",
