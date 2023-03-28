@@ -10,6 +10,7 @@ With this module, patch structures are generated parallel to the working directi
  ```
 [https://doi.org/10.1016/j.compag.2022.106894](https://doi.org/10.1016/j.compag.2022.106894)
  ```
+ [https://doi.org/10.1016/j.compag.2022.106894](https://doi.org/10.1016/j.compag.2022.106894)
 ## Installation
 
 You can install via pip:
