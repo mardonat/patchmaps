@@ -4,7 +4,6 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "patchmaps"
-version = "0.0.1"
 authors = [
     {name = "Marco Donat & Jonas Geistert", email = "marco.donat@zalf.de"},
 ]
