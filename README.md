@@ -1,5 +1,5 @@
 ## About The Project
-### Creating patch structures oriented parallel to the permanent traffic line
+### Creating patch structures
 
 For the production of application maps in agriculture, rectangular polygons are often used to distinguish subareas on the field. So far, these are always generated in north-south direction by conventional farm management softwares. However, the direction of travel on a field is very often different from the north-south orientation.
 With this module, patch structures are generated parallel to the working direction. It is possible to define the maximum working width, as well as the maximum size of the polygons in the unit meter. If no tramline is provided, patch structures are created in the north-south direction.
@@ -29,10 +29,19 @@ poly = gpd.read_file('poly.shp')
 poly= poly.to_crs('epsg:4326')
 ```
 
-And then create patchmaps without a trameline:
+And then create patchmaps with and without a trameline:
 ```
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 ```
+
+In this picture you can see the field polygon, the tramline and the generated patchstructure (parallel to tramline). By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
+
+<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG" width="900" height="700">
+
+
+In this picture you can see the field polygon and the generated patchstructure (north-south orientation). By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
+
+<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_wo_runline.PNG" width="700" height="600">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
