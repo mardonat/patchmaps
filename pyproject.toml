@@ -7,7 +7,7 @@ py-modules = []
 
 [project]
 name = "patchmaps"
-version = "0.0.1"
+
 authors = [
     {name = "Marco Donat & Jonas Geistert", email = "marco.donat@zalf.de"},
 ]
