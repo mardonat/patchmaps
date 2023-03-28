@@ -1,14 +1,14 @@
 # Creating patch structures oriented parallel to the permanent traffic line
 
-For the production of application maps in agriculture, rectangular polygons are often used to distinguish subareas on the field. So far, these are always generated in north-south direction by conventional farm management systems. However, the direction of travel on a field is very often different from the north-south direction.
-With this module, patch structures are generated parallel to the working direction. It is possible to define the maximum working width, as well as the maximum size of the polygons in the unit meter. 
+For the production of application maps in agriculture, rectangular polygons are often used to distinguish subareas on the field. So far, these are always generated in north-south direction by conventional farm management softwares. However, the direction of travel on a field is very often different from the north-south orientation.
+With this module, patch structures are generated parallel to the working direction. It is possible to define the maximum working width, as well as the maximum size of the polygons in the unit meter. If no tramline is provided, patch structures are created in the north-south direction.
 
 
-Instalation
+### Installation
 
 pip install git+https://github.com/mardonat/patchmaps.git
 
-<!-- GETTING STARTED -->
+
 ## Getting Started
 
 
