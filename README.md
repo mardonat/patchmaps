@@ -8,8 +8,9 @@ Instalation
 
 pip install git+https://github.com/mardonat/patchmaps.git
 
+<!-- GETTING STARTED -->
+## Getting Started
 
-Use
 
 ##import modul
 from patchmaps import patchmaps
