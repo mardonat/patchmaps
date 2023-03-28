@@ -35,7 +35,7 @@ patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 ```
 
 
-![alt text](https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG?raw=true =50x50)
+![alt text](https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG?=50x50)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
