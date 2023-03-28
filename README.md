@@ -41,7 +41,7 @@ In this picture you can see the field polygons, the tramline and the generated p
 
 In this picture you can see the field polygons and the generated patchstructure (north-south orientation). By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
 
-<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_wo_runline.PNG" width="900" height="700">
+<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_wo_runline.PNG" width="800" height="700">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
