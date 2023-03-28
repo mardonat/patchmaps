@@ -6,4 +6,4 @@ With this module, patch structures are generated parallel to the working directi
 
 Instalation
 
-pip install git+https://github.com/clusterclaus/patchmaps.git
+pip install git+https://github.com/mardonat/patchmaps.git
