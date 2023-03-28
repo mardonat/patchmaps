@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "patchmaps"
 authors = [
-    {name = "Marco Donat & Jonas Geistert", email = "marco.donat@zalf.de"},
+    {name = "Marco Donat", email = "marco.donat@zalf.de"},
 ]
 description = "Creates rectangular Patchstructure parallel to permanent traffic lines"
 readme = "README.md"
