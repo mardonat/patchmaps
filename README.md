@@ -34,10 +34,14 @@ And then create patchmaps with and without a trameline:
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 ```
 
-In this picture you can see the field polygons, the tramline and the generated patchstructure. By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
+In this picture you can see the field polygons, the tramline and the generated patchstructure (parallel to tramline). By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
 
 <img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG" width="900" height="700">
 
+
+In this picture you can see the field polygons and the generated patchstructure (north-south orientation). By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
+
+<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_wo_runline.PNG" width="900" height="700">
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
