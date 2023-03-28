@@ -34,7 +34,7 @@ And then create patchmaps with and without a trameline:
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 ```
 
-<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG" width="150" height="280">
+<img src="https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG" width="300" height="250">
 
 
 
