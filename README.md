@@ -29,7 +29,7 @@ patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 
 ### License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See `LICENSE` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
