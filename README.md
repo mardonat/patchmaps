@@ -15,14 +15,19 @@ $ pip install git+https://github.com/mardonat/patchmaps.git
 
 ## Getting Started
 
-##import modul
-from patchmaps import patchmaps
 
-##import data
+Import the modul:
+```
+from patchmaps import patchmaps
+```
+
+Import the data
+```
 line = gpd.read_file('line.shp')
 line= line.to_crs('epsg:4326')
 poly = gpd.read_file('poly.shp')
 poly= poly.to_crs('epsg:4326')
+```
 
 ##create patchmaps
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
