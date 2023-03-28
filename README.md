@@ -7,3 +7,18 @@ With this module, patch structures are generated parallel to the working directi
 Instalation
 
 pip install git+https://github.com/mardonat/patchmaps.git
+
+
+Use
+
+##import modul
+from patchmaps import patchmaps
+
+##import data
+line = gpd.read_file('line.shp')
+line= line.to_crs('epsg:4326')
+poly = gpd.read_file('poly.shp')
+poly= poly.to_crs('epsg:4326')
+
+##create patchmaps
+patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
