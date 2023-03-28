@@ -9,7 +9,8 @@ With this module, patch structures are generated parallel to the working directi
  
  ```
 Donat, M., et al. (2022). "Patch cropping-a new methodological approach to determine new field arrangements
-##that increase the multifunctionality of agricultural landscapes." Computers and Electronics in Agriculture 197: 106894.
+that increase the multifunctionality of agricultural landscapes." 
+Computers and Electronics in Agriculture 197: 106894.
  ```
  [https://doi.org/10.1016/j.compag.2022.106894](https://doi.org/10.1016/j.compag.2022.106894)
 ## Installation
