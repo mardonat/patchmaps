@@ -8,8 +8,8 @@ With this module, patch structures are generated parallel to the working directi
  This Project is part of our academic paper:
  "Patch cropping-a new methodological approach to determine new field arrangements that increase the multifunctionality of agricultural landscapes"
  ```
- https://doi.org/10.1016/j.compag.2022.106894
-```
+[https://doi.org/10.1016/j.compag.2022.106894](https://doi.org/10.1016/j.compag.2022.106894)
+ ```
 ## Installation
 
 You can install via pip:
