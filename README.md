@@ -29,10 +29,13 @@ poly = gpd.read_file('poly.shp')
 poly= poly.to_crs('epsg:4326')
 ```
 
-And then create patchmaps without a trameline:
+And then create patchmaps with and without a trameline:
 ```
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 ```
+
+
+![alt text](https://github.com/mardonat/patchmaps/blob/main/tutorials/images/field_with_runline.PNG?raw=true)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
