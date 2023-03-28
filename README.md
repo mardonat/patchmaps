@@ -6,10 +6,10 @@ With this module, patch structures are generated parallel to the working directi
 
 ## Installation
 
-You can install via [bower](http://bower.io):
+You can install via pip:
 
 ```
-$ bower install --save grayscale
+$ pip install git+https://github.com/mardonat/patchmaps.git --save grayscale
 ```
 
 Or, you can install via [npm](http://npmjs.org):
