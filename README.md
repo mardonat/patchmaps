@@ -12,7 +12,7 @@ Donat, M., et al. (2022). "Patch cropping-a new methodological approach to deter
 that increase the multifunctionality of agricultural landscapes." 
 Computers and Electronics in Agriculture 197: 106894.
  ```
- [https://doi.org/10.1016/j.compag.2022.106894](https://doi.org/10.1016/j.compag.2022.106894)
+ [https://doi.org/10.1016/j.compag.2022.106894](DOI:10.1016/j.compag.2022.106894)
 ## Installation
 
 You can install via pip:
