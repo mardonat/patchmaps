@@ -24,4 +24,6 @@ dependencies = [
     "shapely >= 1.7.1", 
 ]
 
-
+[tool.setuptools.packages.find]
+include = ["patchmaps*"]
+namespaces = true
