@@ -7,6 +7,7 @@ py-modules = []
 
 [project]
 name = "patchmaps"
+version = "0.1.0"
 
 authors = [
     {name = "Marco Donat & Jonas Geistert", email = "marco.donat@zalf.de"},
@@ -22,5 +23,5 @@ dependencies = [
     "pyproj >= 3.0.1",
     "shapely >= 1.7.1", 
 ]
-dynamic = ["version"]
+
 
