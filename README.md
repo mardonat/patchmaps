@@ -57,7 +57,7 @@ In this picture you can see the field polygon and the generated patchstructure (
 
 ## Test data
 
-test data can be found in the [https://github.com/mardonat/patchmaps/tree/main/tutorials](tutorials folder). Different fields and tramlines are provided in different countries around the world to test the creation of patchmaps.
+test data can be found in the [tutorial folder](https://github.com/mardonat/patchmaps/tree/main/tutorials). Different fields and tramlines are provided in different countries around the world to test the creation of patchmaps.
 
 
 ## License
