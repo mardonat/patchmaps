@@ -32,18 +32,18 @@ from patchmaps import patchmaps
 
 Import the data using Geopandas
 ```
-line = gpd.read_file('line.shp')
-line= line.to_crs('epsg:4326')
-poly = gpd.read_file('poly.shp')
-poly= poly.to_crs('epsg:4326')
+[1]line = gpd.read_file('line.shp')
+[2]line= line.to_crs('epsg:4326')
+[3]poly = gpd.read_file('poly.shp')
+[4]poly= poly.to_crs('epsg:4326')
 ```
-Both types(poly) and type(line) must be geodataframes:
+Both type(poly) and type(line) must be geodataframes:
 ```
 [1] print(type(poly)==gpd.geodataframe.GeoDataFrame)
 [2] True
 ```
 
-And then create patchmaps with and without a trameline:
+And then create patchmaps with and without a trameline. Working_width is the maximum working width you use (e.g 36m). Patchmaps will have a edge length of the working width. With the parameter factor you can increase the patch size by a multiple of your working width. If you use a working width of 36 m and a factor of 1, patches will have a edge length of 36m. If you use working width of 36 m and factor 2, patches will have a edge length of72m (36*2). 
 ```
 patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
 ```
