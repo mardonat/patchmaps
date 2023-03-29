@@ -37,6 +37,10 @@ line= line.to_crs('epsg:4326')
 poly = gpd.read_file('poly.shp')
 poly= poly.to_crs('epsg:4326')
 ```
+Both types(poly) and type(line) must be geodataframes:
+```
+type(poly)==gpd.geodataframe.GeoDataFrame
+```
 
 And then create patchmaps with and without a trameline:
 ```
