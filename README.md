@@ -18,7 +18,7 @@ Computers and Electronics in Agriculture 197: 106894.
 You can install via pip:
 
 ```
-$ pip install git+https://github.com/mardonat/patchmaps.git
+pip install git+https://github.com/mardonat/patchmaps.git
 ```
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
