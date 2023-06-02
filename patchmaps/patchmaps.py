@@ -55,8 +55,8 @@ def get_structure(poly, working_width=36,factor=2,tramline= None):
     y_diff=poly.bounds.iloc[0][3]-poly.bounds.iloc[0][1]
     
     dimension=x_diff/edge_length,y_diff/edge_length
-    dimension_a=(int(dimension[0]) + (dimension[0] % 5 > 0))*2#upround
-    dimension_b=(int(dimension[1]) + (dimension[1] % 5 > 0))*2
+    dimension_a=((int(dimension[0]) + (dimension[0] % 5 > 0))*2)*2 #upround
+    dimension_b=((int(dimension[1]) + (dimension[1] % 5 > 0))*2)*2
     
     # Second coordinate of permanent traffic lane 
     dif = np.array(p0) - np.array(p1)  
