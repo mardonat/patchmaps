@@ -24,9 +24,9 @@ def get_structure(poly: Polygon, crs='epsg:4326', working_width=36, factor=2, tr
     else:
         parallel_shift = 2
    
-    # input_crs = CRS.from_user_input(crs).name
+    input_crs = CRS.from_user_input(crs).name
     # find correct EPSG for calculation in meter
-    utm_crs_list = query_utm_crs_info(datum_name="WGS 84", area_of_interest=AreaOfInterest(
+    utm_crs_list = query_utm_crs_info(datum_name=input_crs, area_of_interest=AreaOfInterest(
         west_lon_degree=poly.bounds[0],
         south_lat_degree=poly.bounds[1],
         east_lon_degree=poly.bounds[2],
