@@ -49,8 +49,8 @@ def get_structure(poly: Polygon, crs='epsg:4326', working_width=36, factor=2, tr
     y_diff = poly.bounds[3] - poly.bounds[1]
 
     dimension = x_diff / edge_length, y_diff / edge_length
-    dimension_a = math.ceil((int(dimension[0]) + (dimension[0] % 5 > 0)) * 2)  # upround
-    dimension_b = math.ceil((int(dimension[1]) + (dimension[1] % 5 > 0)) * 2)
+    dimension_a = math.ceil((int(dimension[0]) + (dimension[0] % 5 > 0)) * 2)*2  # upround
+    dimension_b = math.ceil((int(dimension[1]) + (dimension[1] % 5 > 0)) * 2)*2
 
     # Second coordinate of permanent traffic lane
     dif = np.array(p0) - np.array(p1)
