@@ -46,7 +46,7 @@ Type(poly) has to be a shapely.geometry.polygon.Polygon:
 
 And then create patchmaps with and without a trameline. Working_width is the maximum working width you use (e.g 36m). Patchmaps will have a edge length of the working width. With the parameter factor you can increase the patch size by a multiple of your working width. If you use a working width of 36 m and a factor of 1, patches will have a edge length of 36m. If you use working width of 36 m and factor 2, patches will have a edge length of 72m (36m*2m). 
 ```
-patchmaps.get_structure(poly=poly,tramline=line, working_width=36,factor=2)
+patchmaps.get_structure(poly=poly.iloc[0].geometry,tramline=line, working_width=36,factor=2)
 ```
 
 In this picture you can see the field polygon, the tramline and the generated patchstructure (parallel to tramline). By setting a working width of 36 m and the factor 2, rectangular patches with a total edge length of 72 m are generated.
