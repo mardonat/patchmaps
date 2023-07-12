@@ -38,9 +38,9 @@ Import the data using Geopandas
 [3] poly = gpd.read_file('poly.shp')
 [4] poly= poly.to_crs('epsg:4326')
 ```
-Both type(poly) and type(line) must be geodataframes:
+Type(poly) has to be a shapely.geometry.polygon.Polygon:
 ```
-[1] print(type(poly)==gpd.geodataframe.GeoDataFrame)
+[1] print(type(poly.iloc[0].geometry)==shapely.geometry.polygon.Polygon)
 [2] True
 ```
 
